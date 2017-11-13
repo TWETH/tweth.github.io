@@ -1,0 +1,8 @@
+# tweth.tw
+# TWETH Ethereum Mining Pool
+
+User-agent: *
+Disallow: /api
+Disallow: /*/payments
+Disallow: /*/miners
+Sitemap: https://www.tweth.tw/sitemap.xml

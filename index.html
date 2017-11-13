@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="PPLNS Mode, 0.5% Fee"/>
+  <meta name="keywords" content="eth, ethereum, mining, pool, tweth"/>
+  <meta name="theme-color" content="#1994b8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TWETH Mining Pool</title>
+  
+<meta name="tweth-pool/config/environment" content="%7B%22modulePrefix%22%3A%22tweth-pool%22%2C%22environment%22%3A%22production%22%2C%22rootURL%22%3A%22/%22%2C%22locationType%22%3A%22hash%22%2C%22EmberENV%22%3A%7B%22FEATURES%22%3A%7B%7D%7D%2C%22APP%22%3A%7B%22ApiUrl%22%3A%22//api.tweth.tw/%22%2C%22HttpHost%22%3A%22http%3A//pool.tweth.tw%22%2C%22HttpPort%22%3A8080%2C%22StratumHost%22%3A%22pool.tweth.tw%22%2C%22StratumPort%22%3A8880%2C%22PoolFee%22%3A%220%25%22%2C%22PayoutThreshold%22%3A%220.05%20Ether%22%2C%22BlockTime%22%3A14%2C%22PayoutInterval%22%3A2%2C%22SharesDiff%22%3A%224G%22%2C%22PayoutMode%22%3A%22PPLNS%22%2C%22PplnsShares%22%3A50000%2C%22name%22%3A%22tweth-pool%22%2C%22version%22%3A%221.0.1+%22%7D%2C%22exportApplicationGlobal%22%3Afalse%7D" />
+  <link rel="icon" href="/favicon.ico">
+  <link rel="stylesheet" href="/assets/vendor-471807f1317449bdf80e7ba4ed250a3e.css">
+  <link rel="stylesheet" href="/assets/tweth-pool-d9f0c3b9f48a4848efcfc79b95b38eac.css">
+  <script src="https://cdn.polyfill.io/v1/polyfill.min.js?features=Intl.~locale.en"></script>
+  <script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/currency.js"></script>
+  
+</head>
+<body>
+
+<script src="/assets/vendor-a41766b5fa1fcfad78e0a47352604cfe.js"></script>
+<script src="/assets/tweth-pool-ec3b7e24db0f7f7018122b2a87d44f48.js"></script>
+
+
+<!-- Start: BTC 行情表-->
+<div class="panel-group" id="accordion" style="margin-top:30px;">
+  <div class="panel panel-default">
+    <div class="panel-heading text-center">
+      <h4 class="panel-title">
+        <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">BTC/ETH/LTC Market &#9754;</a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse">
+      <div class="jumbotron" style="margin:0;">
+        <div class="container">
+          <div class="eht-widget" style="width:350px;float:left;">
+            <div class="coinmarketcap-currency-widget" data-currency="bitcoin" data-base="USD" data-secondary="BTC"
+                 data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD"
+                 data-statsticker="true">
+            </div>
+          </div>
+          <div class="eht-widget" style="width:350px;float:left;">
+            <div class="coinmarketcap-currency-widget" data-currency="ethereum" data-base="USD" data-secondary="BTC"
+                 data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD"
+                 data-statsticker="true">
+            </div>
+          </div>
+          <div class="eht-widget" style="width:350px;float:left;">
+            <div class="coinmarketcap-currency-widget" data-currency="litecoin" data-base="USD" data-secondary="BTC"
+                 data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD"
+                 data-statsticker="true">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- End -->
+
+<footer class="footer">
+  <div class="container">
+    <p class="text-muted text-center">
+      <a href="https://www.facebook.com/groups/1792206231017978/" target="_blank">tweth.tw</a>
+      | Powered by <a href="https://github.com/sammy007/open-ethereum-pool" target="_blank">Open Ethereum Pools</a>
+    </p>
+  </div>
+</footer>
+</body>
+</html>
+
